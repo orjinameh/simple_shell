@@ -58,6 +58,6 @@ void not_found(char *str, int num, list_t *env);
 void cant_cd_to(char *str, int c_n, list_t *env);
 void illegal_number(char *str, int c_n, list_t *env);
 char *int_to_string(int num);
-char *c_strdup(char *str, int cs)
+char *c_strdup(char *str, int cs);
 
 #endif
